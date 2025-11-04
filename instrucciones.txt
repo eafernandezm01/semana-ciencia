@@ -1,0 +1,40 @@
+Trabajo en grupos 4 - 5
+
+Partiendo del repositorio base:  https://github.com/eafernandezm01/semana-ciencia
+
+1. Clonar el proyecto y ejecutarlo en local.
+
+2. Crear un componente de cabecera (header o cabecera) que incluya:
+
+            Título que será:                    ATRAPA LOS QUBITS 
+            Subtítulo:                          SEMANA DE LA CIENCIA 25/26 - I.E.S. DONOSO CORTÉS 
+            Logo o imagen con los qubits o logo centro en un lateral (ten en cuenta que el juego está incrustado en un iframe si añades /juego a la url verás como se vé)
+
+   Crear un componente pie (footer) que incluya:
+            SEMANA DE LA CIENCIA 25/26 - I.E.S. DONOSO CORTÉS 
+            Proyecto desarrollado por alumnado de 2º CFGS Desarrollo de Aplicaciones Multiplataforma 
+            Optativa: Framework en la Web
+
+3. Implementar una barra de navegación (navbar) con Angular Router que contenga al menos las siguientes rutas (debes investigar cómo funciona la navegación en Angular)
+usa componente de navegación de bootstrap:
+            ¿Qué son los qubits?             ---->  navegará a: inicio
+            ¿Cómo funciona el juego?         ---->  navegará a: funcionamiento
+            Juego                            ---->  navegará a: juego
+
+4. Crear una página inicio que explique qué son los qubits (Explicación clara que pueda entender alumnado de 5-6 de primaria)
+                ¿Qué son los qubits? Propiedades de los qubits.
+                Ejemplos o analogías (por ejemplo: “bit vs qubit”)
+                Imágenes que puedan entender o vídeos que puedan entender.
+
+5. Crear una página que explique cómo funciona el juego del proyecto
+                Objetivo del juego
+                Reglas o instrucciones
+                Ejemplo de uso (capturas)
+                Algún botón que podamos ir al juego
+
+6. Integrar la cabecera, barra de navegación, pie de página en app.html
+
+7. Comprobar que la navegación funciona correctamente y que cada sección muestra su contenido.
+
+8. Una vez terminado, se subirá al github y os mostraré cómo podemos subirlo al hosting gratuito: https://www.awardspace.com/
+         La web publicada es: http://semanaciencia-donosocortes.atwebpages.com/juego
