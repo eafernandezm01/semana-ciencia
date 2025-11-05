@@ -1,0 +1,14 @@
+.imagen {
+    max-width: 10%;
+    max-height: 10%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    background-color: rgb(0, 0, 40);
+    color: white;
+}
