@@ -1,0 +1,18 @@
+<!-- TODO Arreglar la sombra-->
+<div class="shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem; margin-top: 4dvh; margin-left: 2dvw;">
+  <div class="card" style="width: 18rem;">
+    <img [src]="grupo.logo" class="card-img-top" alt="Logo del equipo">
+    <div class="card-body">
+      <h5 class="card-title"> {{ grupo.trabajo }}</h5>
+      <p class="card-text">Breve descripción del trabajo llevado a cabo.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      @for (alumno of grupo.alumnos; track $index) {
+          <li class="list-group-item"><b>{{ alumno.nombre }}</b> {{ alumno.apellidos }} {{ alumno.esLider ? '👑' : '' }}</li>
+      }
+    </ul>
+    <div class="card-body">
+      <a href="#" class="card-link">Ver trabajo</a>
+    </div>
+  </div>
+</div>
