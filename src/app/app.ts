@@ -6,7 +6,7 @@ import { Footer } from './comun/footer/footer';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header, Footer, Navbar],
+  imports: [RouterOutlet, Header, Footer, Navbar, Header, Footer], //Añadido para que no os falle
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
