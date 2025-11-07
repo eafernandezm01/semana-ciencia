@@ -1,6 +1,10 @@
-<div class="header">
-    <h1>{{ title }}</h1>
-    <h2>{{ subtitle }}</h2>
-</div>
+<div class="header container-fluid d-flex align-items-center position-relative">
 
-<img class="imagen" [src]="logo" alt="Logo">
+    <img class="imagen" [src]="logo" alt="Logo">
+
+    <div class="titulos position-absolute top-50 start-50 translate-middle text-center">
+        <h1>{{ title }}</h1>
+        <h2>{{ subtitle }}</h2>
+    </div>
+    
+</div>
