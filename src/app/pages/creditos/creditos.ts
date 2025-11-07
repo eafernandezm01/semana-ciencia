@@ -39,9 +39,12 @@ export class Creditos {
           esLider:false
         }
       ],
-      logo: "", // TODO Añadir logo
+      logo: "logoEquipoJose.png", // TODO Añadir logo
       trabajo: TRABAJO.CREDITOS
     },
+
+
+    //logo Juan Carlos es josex 
     
     // TODO Crear el resto de grupos con su respectiva información 
   ]
