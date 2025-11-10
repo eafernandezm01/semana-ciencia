@@ -1,83 +1,109 @@
 /* Fondo y color base */
-html, body {
-  background-color: #0e1530;
-  color: #f2fbff;
-  margin: 0;
-  font-family: system-ui, "Segoe UI", Roboto, Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  padding: 20px;
-  line-height: 1.6;
-  box-sizing: border-box;
+.fondo {
+    /*background-color: #0e1530 !important;  Azul oscuro */
+    color: #f2fbff; /* Blanco azulado */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 15px auto;
+    padding: 15px;
+}
+
+/* Contenedor principal con márgenes */
+div {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
 }
 
 /* Títulos */
 h1 {
-  font-size: 28px;
-  margin-top: 10px;
-  text-align: center;
-  color: darkmagenta;
-  text-shadow: 0 0 8px rgba(110, 231, 255, 0.4);
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #00ffff; /* Cian brillante */
+    text-shadow: 0 0 12px rgba(0, 255, 255, 0.6); /* Brillo tipo neón */
 }
 
 h3, h4, h5 {
-  color: darkblue;
-  margin-bottom: 6px;
+    color: #f2fbff; /* Blanco suave */
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 
-/* Separadores */
-hr {
-  border: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  width: 100%;
-  margin: 16px 0;
+/* Párrafos con márgenes */
+p {
+    margin: 15px 0;
+    padding: 0 10px;
 }
 
-/* Contenedor principal */
-.wrap {
-  width: 95vw;
-  max-width: 880px;
-  background-color: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  padding: 20px;
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
+/* Listas con márgenes */
+ol {
+    margin: 15px 0;
+    padding-left: 40px;
 }
 
-/* Listas */
-.rules {
-  list-style: disc;
-  padding-left: 20px;
+li {
+    margin: 8px 0;
 }
 
 /* Elementos kbd */
 kbd {
-  background-color: rgba(255, 255, 255, 0.15);
-  border-radius: 4px;
-  padding: 2px 6px;
-  font-weight: bold;
+    background-color: #1a2b4e;
+    padding: 2px 6px;
+    border-radius: 4px;
+    border: 1px solid #00ffff;
 }
 
-/* Galería */
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-  margin-top: 16px;
+/* Línea divisoria */
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(0, 255, 255, 0.3);
+    margin: 30px 0;
 }
 
-.gallery img {
-  width: 80%;
-  max-width: 250px;
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  transition: transform 0.3s ease;
+/* Imágenes */
+img {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
 }
 
-.gallery img:hover {
-  transform: scale(1.05);
+/* Botones */
+button, .btn {
+    background-color: #0077cc; /* Azul medio */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(0, 255, 255, 0.3);
+    transition: background-color 0.3s ease;
+    margin: 10px 5px;
+}
+
+button:hover, .btn:hover {
+    background-color: #00aaff;
+}
+
+/* Tabs o contadores */
+.tab {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #f2fbff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin: 4px;
+    font-weight: bold;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.1);
+}
+
+/* Texto en negrita */
+strong {
+    color: #00ffff;
 }
