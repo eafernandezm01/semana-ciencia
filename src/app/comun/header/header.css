@@ -1,23 +1,31 @@
 .header {
   background-color: rgb(10, 10, 45);
   color: white;
-  min-height: 140px;
-  display: flex;
-  align-items: center;
-  position: relative;
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
 }
 
+/* Imagen con fondo visible alrededor y tamaño controlado */
 .imagen {
   max-width: 120px;
   max-height: 120px;
   padding: 10px;
-  background-color: rgb(10, 10, 55);
+  background-color: rgb(0, 0, 55);
   box-sizing: border-box;
+  display: block;
 }
 
+/* Títulos centrados en su columna, se envuelven si es necesario */
 .titulos h1, .titulos h2 {
   margin: 0;
-  line-height: 1.2;
-  padding-left: 10px;
-  text-align: left;
+  line-height: 1.1;
+  text-align: center;
+  word-break: break-word;
+  white-space: normal;
+}
+
+/* Evitar solapamientos: en pantallas pequeñas apilar y centrar todo */
+@media (max-width: 767.98px) {
+  .header { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+  .imagen { margin-bottom: 0.5rem; }
 }
