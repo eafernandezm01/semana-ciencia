@@ -153,7 +153,7 @@ export class Creditos {
           esLider: false
         }
       ],
-      logo: "", // TODO Añadir logo
+      logo: "/home/ciclos/VSCode/OPT/semana-ciencia/semana-ciencia/public/grupoHector.png", // TODO Añadir logo
       trabajo: TRABAJO.CREDITOS
     }
 
