@@ -1,0 +1,133 @@
+body{
+    background-color: #101a3a;
+    margin: 0px;
+    color: white;
+}
+
+h1{
+    margin-bottom: 10px;
+    padding: 15px;
+    text-shadow: 0 0 12px #f9fbfb;
+}
+
+.explicacion{
+    text-align: center;
+}
+/* .explicacion h4{
+    color: #ff8a8a;
+} */
+
+.queEs{
+    /* margin: 10px;
+    padding: 20px;
+    background-color: #0e1530;
+    border-radius: 20px; */
+}
+
+.Propiedades{
+    margin: 10px;
+    padding: 20px;
+}
+.Propiedades h4{
+    margin-bottom: 20px;
+}
+.prop{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.exp{
+    padding: 20px;
+    background-color:#0e1530;
+    border-radius: 20px;
+}
+.exp h6{
+    background-color: #1b3ab9;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.claseDeQubits {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.ejemplos{
+    text-align: center;
+    padding: 30px;
+}
+
+.qubits{
+    padding: 20px;
+    margin: 10px;
+    color: #7f8cc2;
+    background-color: #0e1530;
+    border-radius: 10px;
+}
+
+.qubits h5{
+    color: #1b3ab9;
+    text-align: center;
+    font-weight: bold;
+    /* text-shadow: 0 0 12px #f9fbfb; */
+}
+
+.qubits img{
+    padding: 10px;
+    width: 200px;
+    border: 10px solid #6ee7ff;
+    border-radius: 50%;
+    box-shadow: 0 0 12px #6ee7ff; 
+    transition: transform 0.4s ease;
+}
+
+.qubits img:hover{
+    transform: translateX(10px);
+}
+
+.qubits .imagen{
+    padding: 20px;
+}
+
+.qubits p{
+    text-align: center;
+}
+
+.galeria{
+    background-color:#101a3a;
+}
+
+.imagenes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    justify-items: center;
+}
+
+.imagenes img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    align-items: center;
+    border: 20px solid white;
+    box-shadow: 0 0 12px #6ee7ff;
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagenes img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.imgmoneda{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.imgmoneda img{
+    border-radius: 15px;
+}
