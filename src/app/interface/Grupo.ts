@@ -7,8 +7,7 @@ export interface Grupo {
 }
 
 export enum TRABAJO {
-    HEADER="Cabecera",
-    FOOTER="Pie de página",
+    HEADER_FOOTER="Cabecera y Pie de página",
     NAVBAR="Barra de navegación",
     INICIO="Landing page",
     COMO_FUNCIONA="¿Cómo funciona el juego?",

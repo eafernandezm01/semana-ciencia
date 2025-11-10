@@ -39,7 +39,7 @@ export class Creditos {
           esLider: false
         }
       ],
-      logo: "logoEquipoJose.png", // TODO Añadir logo
+      logo: "grupoJosan.png", // TODO Añadir logo
       trabajo: TRABAJO.CREDITOS
     },
     {
@@ -70,8 +70,8 @@ export class Creditos {
           esLider: false
         }
       ],
-      logo: "", // TODO Añadir logo
-      trabajo: TRABAJO.CREDITOS
+      logo: "Josexy.png", // TODO Añadir logo
+      trabajo: TRABAJO.NAVBAR
     },
     {
       alumnos: [
@@ -96,8 +96,8 @@ export class Creditos {
           esLider: false
         }
       ],
-      logo: "", // TODO Añadir logo
-      trabajo: TRABAJO.CREDITOS
+      logo: "grupoJorge.png", // TODO Añadir logo
+      trabajo: TRABAJO.HEADER_FOOTER
     },
     {
       alumnos: [
@@ -122,8 +122,8 @@ export class Creditos {
           esLider: false
         }
       ],
-      logo: "", // TODO Añadir logo
-      trabajo: TRABAJO.CREDITOS
+      logo: "grupoCarlos.png", // TODO Añadir logo
+      trabajo: TRABAJO.COMO_FUNCIONA
     },
     {
       alumnos: [
@@ -153,13 +153,9 @@ export class Creditos {
           esLider: false
         }
       ],
-      logo: "", // TODO Añadir logo
-      trabajo: TRABAJO.CREDITOS
+      logo: "grupoNatalia.png", // TODO Añadir logo
+      trabajo: TRABAJO.INICIO
     }
-
-
-    //logo Juan Carlos es josex 
-
     // TODO Crear el resto de grupos con su respectiva información 
   ]
 
