@@ -6,27 +6,17 @@ body{
 
 h1{
     margin-bottom: 10px;
-    padding: 15px;
+    padding: 20px;
     text-shadow: 0 0 12px #f9fbfb;
 }
 
 .explicacion{
     text-align: center;
 }
-/* .explicacion h4{
-    color: #ff8a8a;
-} */
-
-.queEs{
-    /* margin: 10px;
-    padding: 20px;
-    background-color: #0e1530;
-    border-radius: 20px; */
-}
 
 .Propiedades{
     margin: 10px;
-    padding: 20px;
+    padding: 30px;
 }
 .Propiedades h4{
     margin-bottom: 20px;
@@ -37,9 +27,10 @@ h1{
     gap: 20px;
 }
 .exp{
-    padding: 20px;
+    padding: 25px;
     background-color:#0e1530;
     border-radius: 20px;
+    font-size: large;
 }
 .exp h6{
     background-color: #1b3ab9;
@@ -57,6 +48,7 @@ h1{
 .ejemplos{
     text-align: center;
     padding: 30px;
+    font-size: large;
 }
 
 .qubits{
@@ -65,13 +57,13 @@ h1{
     color: #7f8cc2;
     background-color: #0e1530;
     border-radius: 10px;
+    font-size: large;
 }
 
 .qubits h5{
     color: #1b3ab9;
     text-align: center;
     font-weight: bold;
-    /* text-shadow: 0 0 12px #f9fbfb; */
 }
 
 .qubits img{
@@ -114,7 +106,6 @@ h1{
     align-items: center;
     border: 20px solid white;
     box-shadow: 0 0 12px #6ee7ff;
-    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -123,11 +114,50 @@ h1{
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
 }
 
-.imgmoneda{
+.imgmoneda img{
+    border-radius: 15px;
+}
+
+.explicacion{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;  
+}
+.general{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
-.imgmoneda img{
-    border-radius: 15px;
+.expQubits{
+    padding: 20px;
+    background-color:#0e1530;
+    border-radius: 20px;
+    font-size: large;
+    margin: 20px;
+}
+
+.expBits{
+    padding: 10px;
+    background-color:#0e1530;
+    border-radius: 20px;
+    font-size: large;
+    margin: 20px;
+    
+}
+.expCuanticos{
+    padding: 20px;
+    background-color:#0e1530;
+    border-radius: 20px;
+    font-size: large;
+    margin: 20px;
+}
+.expCuanticos img{
+    width: 300px;
+}
+
+.expCuanticos h4{
+    padding: 10px;
+}
+.expBits h4{
+    padding: 10px;
 }
